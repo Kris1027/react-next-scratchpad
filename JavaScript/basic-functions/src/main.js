@@ -4,6 +4,7 @@
 // import { DataConversion } from './data-conversion';
 // import { MathFunctions } from './math-functions';
 // import { DateFunctions } from './date-functions';
+// import { AsyncFunctions } from './async-functions';
 
 // ArrayFunctions();
 // ObjectFunctions();
@@ -11,3 +12,4 @@
 // DataConversion();
 // MathFunctions();
 // DateFunctions();
+// AsyncFunctions();
