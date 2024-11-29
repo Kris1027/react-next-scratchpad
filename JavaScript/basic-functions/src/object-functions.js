@@ -14,17 +14,17 @@ export function ObjectFunctions() {
     Object.assign(target, obj);
     console.log(target); // { d: 4, a: 1, b: 2, c: 3 }
 
-    // // Zamraża obiekt (uniemożliwia zmiany)
-    // Object.freeze(obj);
-    // obj.a = 5; // Nie działa
-    // console.log(obj); // { a: 1, b: 2, c: 3 }
+    // Zamraża obiekt (uniemożliwia zmiany)
+    Object.freeze(obj);
+    obj.a = 5; // Nie działa
+    console.log(obj); // { a: 1, b: 2, c: 3 }
 
-    // // Uszczelnia obiekt (można zmieniać, ale nie dodawać/usuwać właściwości)
-    // const sealed = { x: 10 };
-    // Object.seal(sealed);
-    // sealed.x = 20; // Działa
-    // delete sealed.x; // Nie działa
-    // console.log(sealed); // { x: 20 }
+    // Uszczelnia obiekt (można zmieniać, ale nie dodawać/usuwać właściwości)
+    const sealed = { x: 10 };
+    Object.seal(sealed);
+    sealed.x = 20; // Działa
+    delete sealed.x; // Nie działa
+    console.log(sealed); // { x: 20 }
 
     // Tworzy nowy obiekt z określonym prototypem
     const proto = {
