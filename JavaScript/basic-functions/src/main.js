@@ -5,6 +5,7 @@
 // import { MathFunctions } from './math-functions';
 // import { DateFunctions } from './date-functions';
 // import { AsyncFunctions } from './async-functions';
+// import { BasicFunctions } from './basic-functions';
 
 // ArrayFunctions();
 // ObjectFunctions();
@@ -13,3 +14,4 @@
 // MathFunctions();
 // DateFunctions();
 // AsyncFunctions();
+// BasicFunctions();
