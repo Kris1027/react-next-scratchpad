@@ -104,8 +104,6 @@ const Todo = () => {
         const data = await res.json();
         if (!res.ok) throw new Error(data.error || 'Failed to update task');
 
-        console.log(data);
-
         setTasks((prevTasks) => ({
             ...prevTasks,
             tasks: prevTasks.tasks.map((task) =>
